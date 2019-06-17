@@ -1,0 +1,21 @@
+10 LET A = 1
+20 LET B = 2
+30 LET C = 3
+40 PRINT "C = ", C
+50 IF C = 3 THEN PRINT "INSIDE IF"
+60 PRINT "C = ", C
+70 PRINT "A = ", A
+80 LET A = B
+90 PRINT "A = ", A
+100 WHILE C > 0 DO LET C = C - 1; PRINT "C = ", C; IF C = 0 THEN PRINT "DONE!!!"
+110 PRINT "arrays operations"
+120 DIM _ARR[4] = {0, 1, 2, 3}
+130 PRINT "_ARR[0] = ", _ARR[0]
+140 PRINT "_ARR[1] = ", _ARR[1]
+150 PRINT "_ARR[2] = ", _ARR[2]
+160 PRINT "_ARR[3] = ", _ARR[3]
+170 LET L = 0
+180 WHILE L < 10 DO LET L = L + B; PRINT "L = ", L
+190 CDIM $CHAR[4] = {a, b, c, d}
+200 PRINT "$CHAR[0] = ", $CHAR[0]
+210 PRINT "$CHAR[3] = ", $CHAR[3]
